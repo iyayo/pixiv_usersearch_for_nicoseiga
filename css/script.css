@@ -1,0 +1,60 @@
+#search_pixiv_menu {
+    padding: 10px;
+    background-color: #F8F8F8;
+    border-width: 1px;
+    border-color: #e8e8e8;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+#search_pixiv_menu h2 {
+    margin-bottom: 14px;
+    font-size: 133.3%;
+    letter-spacing: 0.04em;
+}
+
+#search_pixiv_menu input[type="text"] {
+    width: 80%;
+    border-color: #ccc;
+    box-shadow: 0;
+}
+
+#search_pixiv_menu input[type="submit"] {
+    width: 20%;
+    color: #fff;
+    background-color: #0096fa;
+    border: none;
+}
+
+#search_pixiv_menu input[type="submit"]:hover {
+    background-color: #0086e0;
+}
+
+#search_pixiv_menu input[type="text"], input[type="submit"] {
+    vertical-align: top;
+    margin-bottom: 14px;
+    height: 34px;
+    box-sizing: border-box;
+    border-radius: 0;
+    padding: 8px 10px;
+    outline: none;
+}
+
+#search_pixiv_menu label {
+    margin-right: 1em;
+    color: #666666;
+}
+
+#search_pixiv_menu input[type="radio"] {
+    vertical-align:middle;
+}
+
+#search_pixiv_menu a {
+    color: #0086e0;
+    margin-left: 6em;
+}
+
+#search_pixiv_menu a, label, input[type="submit"], input[type="radio"] {
+    cursor: pointer;
+}
