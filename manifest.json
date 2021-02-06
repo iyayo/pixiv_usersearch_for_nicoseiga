@@ -1,7 +1,7 @@
 {
   "name": "Pixivユーザー検索 for ニコニコ静画",
   "version": "1.0",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "description": "ニコニコ静画の投稿者をPixivで検索する拡張機能",
   "icons" : {
     "16" : "icon/icon16.png",
