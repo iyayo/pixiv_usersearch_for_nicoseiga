@@ -1,4 +1,6 @@
-#search_pixiv_menu {
+#_search_pixiv_menu {
+    display: flex;
+    flex-direction: column;
     padding: 10px;
     background-color: #F8F8F8;
     border-width: 1px;
@@ -8,53 +10,72 @@
     margin-bottom: 20px;
 }
 
-#search_pixiv_menu h2 {
+#_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin-bottom: 14px;
     font-size: 133.3%;
     letter-spacing: 0.04em;
 }
 
-#search_pixiv_menu input[type="text"] {
-    width: 80%;
-    border-color: #ccc;
-    box-shadow: 0;
+#_header span {
+    font-weight: bold;
 }
 
-#search_pixiv_menu input[type="submit"] {
-    width: 20%;
-    color: #fff;
-    background-color: #0096fa;
-    border: none;
+#_removeAtsign {
+    color: #0086e0;
+    cursor: pointer;
 }
 
-#search_pixiv_menu input[type="submit"]:hover {
-    background-color: #0086e0;
+#_searchArea {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
 }
 
-#search_pixiv_menu input[type="text"], input[type="submit"] {
-    vertical-align: top;
-    margin-bottom: 14px;
-    height: 34px;
+#_searchArea input[type="search"]{
+    flex: 5;
+    padding: 10px;
+    font-size: 1.2em;
     box-sizing: border-box;
-    border-radius: 0;
-    padding: 8px 10px;
+    border: solid 1px #ccc;
+    border-right: 0;
     outline: none;
 }
 
-#search_pixiv_menu label {
+#_searchArea #_searchButton{
+    flex: 2;
+}
+
+#_searchArea input[type="button"] {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    box-shadow: 0;
+    background-color: #0096fa;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: all 0.5s;
+    outline: none;
+}
+
+#_searchArea input[type="button"]:hover {
+    background-color: #0086e0;
+}
+
+#_radioArea {
+    display: flex;
+    flex-direction: row;
+}
+
+#_radioArea input[type="radio"] {
+    vertical-align: middle;
+}
+
+#_radioArea label {
     margin-right: 1em;
     color: #666666;
-}
-
-#search_pixiv_menu input[type="radio"] {
-    vertical-align:middle;
-}
-
-#search_pixiv_menu a {
-    color: #0086e0;
-    margin-left: 6em;
-}
-
-#search_pixiv_menu a, label, input[type="submit"], input[type="radio"] {
     cursor: pointer;
 }

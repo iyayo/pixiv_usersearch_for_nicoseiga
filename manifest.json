@@ -15,5 +15,10 @@
       "css": ["css/script.css"],
       "matches": ["https://seiga.nicovideo.jp/seiga/*"]
     }
-  ]
+  ],
+  "web_accessible_resources": [{
+    "resources": ["html/searchMenu.html"],
+    "matches": [],
+    "extension_ids": []
+  }]
 }
