@@ -22,6 +22,7 @@ function injectHtml(path, target) {
         function removeAtsign() {
             if (formData.nick_mf.value !== "title") formData.userInput.value = formData.userInput.value.split(/[@＠]/)[0];
             else if(formData.nick_mf.value === "title") formData.titleInput.value = formData.titleInput.value.split(/[@＠]/)[0];
+            setSearchHref();
         }
 
         function setSearchHref() {
