@@ -1,7 +1,7 @@
 {
   "name": "pixivユーザー検索 for ニコニコ静画",
   "version": "1.2.1",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "description": "ニコニコ静画の投稿者をpixivで検索する拡張機能",
   "icons" : {
     "16" : "icon/icon16.png",
@@ -16,5 +16,10 @@
       "matches": ["https://seiga.nicovideo.jp/seiga/*"]
     }
   ],
-  "web_accessible_resources": ["html/searchMenu.html"]
+  "web_accessible_resources": [
+    {
+      "resources": ["html/searchMenu.html"],
+      "matches": ["https://seiga.nicovideo.jp/*"]
+    }
+  ]
 }
