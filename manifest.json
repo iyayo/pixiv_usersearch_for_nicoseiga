@@ -13,7 +13,8 @@
     {
       "js": ["js/script.js"],
       "css": ["css/script.css"],
-      "matches": ["https://seiga.nicovideo.jp/seiga/*"]
+      "matches": ["https://seiga.nicovideo.jp/seiga/*"],
+      "run_at": "document_end"
     }
   ],
   "web_accessible_resources": [
