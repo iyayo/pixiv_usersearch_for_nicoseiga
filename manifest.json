@@ -1,6 +1,6 @@
 {
   "name": "pixivユーザー検索 for ニコニコ静画",
-  "version": "1.2.1",
+  "version": "1.3",
   "manifest_version": 3,
   "description": "ニコニコ静画の投稿者をpixivで検索する拡張機能",
   "icons" : {
